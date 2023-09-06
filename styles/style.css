@@ -1,18 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+
+}
+
 body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 305px;
   font-family: "Poppins", sans-serif;
 }
 
 .header {
+  position: fixed;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 28px;
-  grid-column: 1/-1;
+  width: 100%;
+
 }
 
 .logo-space {
@@ -54,8 +63,7 @@ body {
   background-color: yellow;
   grid-column: 1/-1;
   display: grid;
-  grid-template-rows: 80vh 90vh repeat(2, 1fr);
-  row-gap: 10px;
+  grid-template-rows: auto;
 }
 
 .section1 {
@@ -177,23 +185,125 @@ i.fa-brands.fa-instagram {
   justify-content: center;
   align-items: center;
 }
+
 .section2-content-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   width: 90%;
   height: 80%;
   border: 1px solid black;
 }
 
+
+.h2-senction-black {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+  padding: 25px 0;
+}
+
+.hr-white-section {
+
+  width: 3%;
+  height: 1vh;
+  background-color: #0062b9;
+  border-radius: 10px;
+}
+
+.paragraph-white-section {
+  color: #777777;
+  width: 80%;
+  height: 10vh;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  padding: 15px 0;
+
+}
+
 .section3 {
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 58px 0;
+}
+
+.section3-content-container {
+  width: 90%;
+  height: 90vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .section4 {
   background-color: #0062b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 58px 0;
+}
+
+.section4-content-container {
+  width: 90%;
+  height: 90vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h2-sections {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  font-weight: 900;
+  padding: 25px 0;
+}
+
+.hr-section {
+
+  width: 3%;
+  height: 2vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.paragraph-section {
+  color: #fff;
+  width: 80%;
+  height: 10vh;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  padding: 15px 0;
+
+}
+
+
+.form-section4 {
+  width: 75%;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 39px;
+  margin-top: 90px;
+
 }
 
 .footer {
-  position: relative;
-  bottom: 0;
   background-color: black;
-  height: 20vh;
+
 }
