@@ -11,6 +11,7 @@ body {
   display: grid;
   grid-template-rows: 1fr 305px;
   font-family: "Poppins", sans-serif;
+
 }
 
 .header {
@@ -101,6 +102,7 @@ i.fa-brands.fa-instagram {
   cursor: pointer;
 }
 
+
 .section1-content {
   width: 62%;
   height: 50vh;
@@ -131,6 +133,7 @@ i.fa-brands.fa-instagram {
   font-size: 1.2rem;
   letter-spacing: 0.1em;
   padding: 35px 0;
+  line-height: 1.3em;
 }
 
 .section1-content-btn {
@@ -223,6 +226,7 @@ i.fa-brands.fa-instagram {
   font-size: 1.2rem;
   letter-spacing: 0.1em;
   padding: 15px 0;
+  line-height: 1.3em;
 
 }
 
@@ -236,8 +240,6 @@ i.fa-brands.fa-instagram {
 
 .section3-content-container {
   width: 90%;
-  height: 90vh;
-  border: 1px solid black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -245,18 +247,65 @@ i.fa-brands.fa-instagram {
 
 }
 
-.section4 {
+.my-projects-articles {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0 50px repeat(5, 9vh);
+  column-gap: 10%;
+  margin-top: 10%;
+  gap: 10%;
+}
+
+.laptop-mockup {
+  width: 100%;
+  grid-column: 1/1;
+
+}
+
+.h3-sections3 {
+  font-size: 2rem;
+  font-weight: 700;
+  grid-column: -2/-1;
+  grid-row: 2/3;
+
+}
+
+.paragraph-project-section {
+  grid-column: -2/-1;
+  grid-row: 3/4;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+
+}
+
+.section3-content-btn {
+  width: 40%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.5em;
   background-color: #0062b9;
-  display: flex;
+  color: #fff;
+  grid-column: -2/-1;
+  grid-row: 4/5;
+
+}
+
+.section4 {
   justify-content: center;
   align-items: center;
+  background-color: #0062b9;
+  display: flex;
+  display: flex;
   padding: 58px 0;
 }
 
 .section4-content-container {
   width: 90%;
-  height: 90vh;
-  border: 1px solid black;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -295,15 +344,85 @@ i.fa-brands.fa-instagram {
 
 .form-section4 {
   width: 75%;
-  height: 80vh;
+  height: 70vh;
   background-color: #fff;
   border-radius: 10px;
   padding: 39px;
   margin-top: 90px;
+}
 
+.form-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name,
+.email,
+.message {
+  color: #706666;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#name,
+#email {
+  width: 100%;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  height: 5vh;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+
+}
+
+#message {
+  width: 100%;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  height: 25vh;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.form-btn {
+  width: 20vw;
+  height: 8vh;
+  background-color: #0062b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.form-btn:hover {
+  box-shadow: rgba(0, 98, 185, 0.3) 0 4px 8px, rgba(0, 98, 185, 0.2) 0 7px 13px -3px, #0062b9 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.form-btn:active {
+  box-shadow: #0062b9 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.message:focus::placeholder {
+  color: transparent;
 }
 
 .footer {
   background-color: black;
-
 }
