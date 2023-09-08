@@ -11,7 +11,7 @@
 
   <body>
     <header class="header">
-      <div class="logo-space">
+      <div class="logo-space pointer" onclick="redirectToIndexHtml()">
         <img
           class="logo-profile"
           src="assets/profile-pic.png"
@@ -126,7 +126,12 @@
             labore!
           </p>
           <article class="my-projects-articles">
-            <img src="assets/laptop1.png" alt="" class="laptop-mockup" />
+            <img
+              src="assets/laptop1.png"
+              alt=""
+              class="laptop-mockup pointer"
+              onClick="openNbaProjectPage()"
+            />
             <h3 class="h3-sections3">La Basketeira</h3>
             <p class="paragraph-project-section">
               Project of a basketball jersey registration e-commerce page, where
@@ -142,30 +147,40 @@
             </button>
           </article>
           <article class="my-projects-articles">
-            <img src="assets/laptop.png" alt="" class="laptop-mockup" />
-            <h3 class="h3-sections3">Project2</h3>
+            <img
+              src="assets/laptop3.png"
+              alt="laptop-mockup"
+              class="laptop-mockup pointer"
+              onClick="openGasStationPage()"
+            />
+            <h3 class="h3-sections3">Gas station DB Project</h3>
             <p class="paragraph-project-section">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              sequi iusto quae, libero vero esse consequuntur delectus facilis
-              quam, quibusdam modi.
+              Database project for the Database Management course developed in
+              SQL Server.
             </p>
             <button
-              onClick="window.location.href='nbaProject.html'"
+              onClick="window.location.href='pages/gasStation.html'"
               class="section3-content-btn pointer"
             >
               CASE STUDY
             </button>
           </article>
           <article class="my-projects-articles">
-            <img src="assets/laptop.png" alt="" class="laptop-mockup" />
-            <h3 class="h3-sections3">Project3</h3>
+            <img
+              src="assets/laptop2.png"
+              alt="laptop-mockup"
+              class="laptop-mockup pointer"
+              onClick="expressoSaudePage()"
+            />
+            <h3 class="h3-sections3">Expresso Saúde</h3>
             <p class="paragraph-project-section">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-              sequi iusto quae, libero vero esse consequuntur delectus facilis
-              quam.
+              Project developed during the 1st semester of the Web Systems
+              course with the aim of improving appointment scheduling at
+              Unidades básicas de Saúde(UBS) in São Lourenço da Mata,
+              Pernambuco.
             </p>
             <button
-              onClick="window.location.href='#section3'"
+              onClick="window.location.href='pages/expressoSaude.html'"
               class="section3-content-btn pointer"
             >
               CASE STUDY
