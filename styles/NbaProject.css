@@ -71,29 +71,9 @@ body {
   background-color: #213555;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 50px;
   padding: 26px 0;
-}
-
-.icons-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.icons-list li {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #f0f0f0;
-  padding: 15px;
-}
-
-i.fa-brands.fa-linkedin,
-i.fa-brands.fa-github,
-i.fa-brands.fa-instagram {
-  font-size: 24px;
 }
 
 .pointer {
@@ -107,8 +87,6 @@ i.fa-brands.fa-instagram {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
-  right: -150px;
 }
 
 .section1-title {
@@ -136,6 +114,7 @@ i.fa-brands.fa-instagram {
 .section1-content-btn {
   width: 25%;
   height: 10vh;
+  margin-top: 5%;
   border: 1px solid #f0f0f0;
   border-radius: 4px;
   font-size: 16px;
@@ -201,7 +180,7 @@ i.fa-brands.fa-instagram {
   align-items: center;
   flex-direction: column;
   width: 90%;
-  height: 80%;
+
 }
 
 .h2-senction-black {
@@ -234,31 +213,36 @@ i.fa-brands.fa-instagram {
 
 .bottom-content-section2 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 10%;
   display: flex;
-  gap: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .right-content-section2,
 .left-content-section2 {
-  width: 50%;
+  width: 90%;
+
 }
 
 .left-content-section2 {
   display: flex;
-  justify-content: space-between;
+
   flex-direction: column;
+
 }
 
 .right-content-section2 {
   display: flex;
   flex-direction: column;
+  gap: 10%;
 }
 
 .paragraph-section2 {
   width: 100%;
-  height: 45vh;
+  padding: 25px 0;
   text-align: start;
   text-align: justify;
   font-size: 1.2rem;
@@ -321,32 +305,18 @@ i.fa-brands.fa-instagram {
   flex-direction: column;
 }
 
-.my-projects-articles {
-  width: 100%;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0 50px repeat(5, 9vh);
-  column-gap: 10%;
-  margin-top: 10%;
-}
-
 .laptop-mockup {
-  width: 100%;
-  grid-column: 1/2;
+  width: 80%;
 }
 
 .h3-sections3 {
   font-size: 2rem;
   font-weight: 700;
-  grid-column: -2/-1;
-  grid-row: 2/3;
   color: #213555;
+  padding-top: 50px;
 }
 
 .paragraph-project-section {
-  grid-column: -2/-1;
-  grid-row: 3/5;
   text-align: justify;
   letter-spacing: 0.1em;
   line-height: 1.3em;
@@ -363,7 +333,7 @@ i.fa-brands.fa-instagram {
   background-color: #213555;
   color: #f0f0f0;
   grid-column: -2/-1;
-  grid-row: 5/6;
+  grid-row: 4/5;
 }
 
 .section3-content-btn:hover {
