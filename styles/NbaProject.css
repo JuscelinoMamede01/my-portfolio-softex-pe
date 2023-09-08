@@ -180,7 +180,6 @@ body {
   align-items: center;
   flex-direction: column;
   width: 90%;
-
 }
 
 .h2-senction-black {
@@ -224,14 +223,12 @@ body {
 .right-content-section2,
 .left-content-section2 {
   width: 90%;
-
 }
 
 .left-content-section2 {
   display: flex;
 
   flex-direction: column;
-
 }
 
 .right-content-section2 {
@@ -532,7 +529,11 @@ input:focus::placeholder {
   text-align: justify;
   align-content: flex-start;
 }
-
+.linkedin-footer-logo,
+.github-footer-logo,
+.insta-footer-logo {
+  width: 10%;
+}
 .copyright-section {
   width: 80%;
 }

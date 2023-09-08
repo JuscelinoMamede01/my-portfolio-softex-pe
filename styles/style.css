@@ -76,24 +76,22 @@ body {
 }
 
 .icons-list {
+  width: 5vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .icons-list li {
-  height: 100%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #f0f0f0;
-  padding: 15px;
+  padding: 5px;
 }
-
-i.fa-brands.fa-linkedin,
-i.fa-brands.fa-github,
-i.fa-brands.fa-instagram {
-  font-size: 24px;
+.linkedin-logo {
+  width: 60%;
 }
 
 .pointer {
@@ -561,6 +559,12 @@ input:focus::placeholder {
   color: #f0f0f0;
   text-align: justify;
   align-content: flex-start;
+}
+
+.linkedin-footer-logo,
+.github-footer-logo,
+.insta-footer-logo {
+  width: 10%;
 }
 
 .copyright-section {
