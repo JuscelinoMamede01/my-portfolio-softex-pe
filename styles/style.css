@@ -16,7 +16,7 @@ body {
   position: fixed;
   background-color: #f0f0f0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 25px;
   width: 100%;
@@ -45,7 +45,6 @@ body {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
-  padding-right: 100px;
 }
 
 .nav a {
@@ -60,13 +59,12 @@ body {
 
 .main {
   background-color: yellow;
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-rows: auto;
+
 }
 
 .section1 {
-  height: 80vh;
+  width: 100%;
+  height: 100vh;
   color: #f0f0f0;
   background-color: #213555;
   display: flex;
@@ -90,7 +88,10 @@ body {
   border: 1px solid #f0f0f0;
   padding: 5px;
 }
-.linkedin-logo {
+
+.linkedin-logo,
+.github-logo,
+.insta-logo {
   width: 60%;
 }
 
@@ -136,11 +137,12 @@ body {
   height: 10vh;
   border: 1px solid #f0f0f0;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
   letter-spacing: 0.5em;
   background-color: #213555;
   color: #f0f0f0;
+  overflow: hidden;
   transition: background-color 0.3s, color 0.3s, letter-spacing 0.3s;
 }
 
@@ -199,7 +201,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 90%;
-  height: 80%;
+  height: 100%;
 }
 
 .h2-senction-black {
@@ -245,7 +247,8 @@ body {
 
 .left-content-section2 {
   display: flex;
-  justify-content: space-between;
+  gap: 5%;
+
   flex-direction: column;
 }
 
@@ -334,6 +337,7 @@ body {
   grid-column: 1/2;
 }
 
+.h3-sections2,
 .h3-sections3 {
   font-size: 2rem;
   font-weight: 700;
@@ -577,3 +581,209 @@ input:focus::placeholder {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 820px) {
+  html {
+    height: 100vh;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .header {
+    position: relative;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo-space {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    display: flex;
+  }
+
+  .nav {
+    width: 100vw;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+  }
+
+  .section1 {
+    height: 50vh;
+    flex-direction: column;
+
+  }
+
+  .icons-list {
+    width: 30%;
+    flex-direction: row;
+  }
+
+  .linkedin-logo,
+  .github-logo,
+  .insta-logo {
+    width: 40%;
+  }
+
+  .section1-content {
+    width: 62%;
+    height: 50vh;
+    position: relative;
+    right: 0px;
+  }
+
+  .section1-title {
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+  }
+
+  .paragraph-section1 {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+
+  }
+
+  .section1-content-btn {
+    width: 25%;
+    height: 8vh;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    background-color: #213555;
+    color: #f0f0f0;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s, letter-spacing 0.3s;
+  }
+
+  .section1-content-btn:hover {
+    letter-spacing: 0.5em;
+    border: 1px solid #f0f0f0;
+    background-color: #4f709c;
+    color: #f0f0f0;
+  }
+
+  .mini-scroll {
+    display: none;
+  }
+
+  .section2 {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section2-content-container {
+    width: 100%;
+    padding: 0 5vw;
+  }
+
+  .h2-senction-black {
+    width: 100%;
+    text-align: center;
+    color: #213555;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    font-weight: 800;
+    padding: 25px 0;
+  }
+
+  .hr-white-section {
+    display: none;
+  }
+
+  .paragraph-white-section {
+    height: 15vh;
+    text-align: justify;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+
+  }
+
+  .bottom-content-section2 {
+    width: 100%;
+    height: 60vh;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .right-content-section2,
+  .left-content-section2 {
+    width: 100%;
+  }
+
+  .left-content-section2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .right-content-section2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h3-sections2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #213555;
+  }
+
+  .paragraph-section2 {
+    width: 100%;
+    height: 70%;
+    text-align: justify;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    line-height: 1.1em;
+    padding: 2% 0;
+
+  }
+
+  .section2-content-btn {
+    width: 20%;
+    height: 8vh;
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+  }
+
+  .skills-container-section2 {
+    gap: 15px;
+  }
+
+  .skills {
+    width: 15%;
+  }
+
+}
+
+@media (max-width: 481px) {}
