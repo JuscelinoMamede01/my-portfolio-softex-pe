@@ -774,7 +774,7 @@ input:focus::placeholder {
   }
 
   .section2-content-btn {
-    width: 20%;
+    width: 80%;
     height: 10vh;
     font-size: 80%;
     font-weight: 600;
@@ -907,5 +907,30 @@ input:focus::placeholder {
   .section1-content-btn {
     width: 100%;
     height: 5vh;
+  }
+
+  .h2-senction-black {
+    font-size: 1.4rem;
+  }
+
+  .h3-sections2 {
+    font-size: 1.5rem;
+  }
+
+  .paragraph-white-section,
+  .paragraph-section2 {
+    width: 100%;
+    height: 10vh;
+    text-align: justify;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    padding: 15px 0;
+
+  }
+
+  .section2-content-btn {
+    width: 80%;
+    height: 5vh;
+    margin: 5% 0;
   }
 }
