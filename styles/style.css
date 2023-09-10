@@ -850,7 +850,7 @@ input:focus::placeholder {
 
   .up-footer-content {
     width: 50%;
-    height: 50%;
+    height: 100%;
 
     justify-content: space-evenly;
     flex-direction: column;
