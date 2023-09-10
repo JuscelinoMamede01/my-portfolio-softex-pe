@@ -63,7 +63,6 @@ body {
 
 .main {
   background-color: yellow;
-
 }
 
 .section1 {
@@ -598,6 +597,7 @@ input:focus::placeholder {
     margin: 0;
   }
 
+
   .header {
     position: relative;
     background-color: #f0f0f0;
@@ -630,7 +630,6 @@ input:focus::placeholder {
   .section1 {
     height: 60vh;
     flex-direction: column;
-
   }
 
   .icons-list {
@@ -654,9 +653,8 @@ input:focus::placeholder {
   .section1-title {
     width: 100%;
     height: 10vh;
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 600;
-
   }
 
   .paragraph-section1 {
@@ -665,7 +663,6 @@ input:focus::placeholder {
     text-align: center;
     font-size: 1rem;
     letter-spacing: 0.1em;
-
   }
 
   .section1-content-btn {
@@ -698,7 +695,6 @@ input:focus::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .section2-content-container {
@@ -727,7 +723,6 @@ input:focus::placeholder {
     font-size: 1rem;
     letter-spacing: 0.1em;
     line-height: 1.1em;
-
   }
 
   .bottom-content-section2 {
@@ -737,7 +732,6 @@ input:focus::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   .right-content-section2,
@@ -770,7 +764,6 @@ input:focus::placeholder {
     letter-spacing: 0.1em;
     line-height: 1.1em;
     padding: 2% 0;
-
   }
 
   .section2-content-btn {
@@ -796,7 +789,6 @@ input:focus::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .section3-content-container {
@@ -818,7 +810,6 @@ input:focus::placeholder {
 
   .laptop-mockup {
     width: 100%;
-
   }
 
   .h3-sections2,
@@ -827,9 +818,7 @@ input:focus::placeholder {
     font-weight: 700;
     text-align: center;
     color: #213555;
-
   }
-
 
   .section3-content-btn {
     width: 40%;
@@ -841,7 +830,6 @@ input:focus::placeholder {
     letter-spacing: 0.5em;
     background-color: #213555;
     color: #f0f0f0;
-
   }
 
   .section3-content-btn:hover {
@@ -855,6 +843,70 @@ input:focus::placeholder {
     align-self: center;
   }
 
+  .footer {
+    height: 100vh;
+  }
+
+
+  .up-footer-content {
+    width: 50%;
+    height: 50%;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .left-content {
+    width: 100%;
+    gap: 25px;
+  }
+
+  .right-content {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .footer-icons {
+    width: 100%;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .h3-footer {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f0f0f0;
+  }
+
+  .h3-footer {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f0f0f0;
+  }
+
+  .paragraph-footer {
+    width: 100%;
+    color: #f0f0f0;
+    text-align: justify;
+    align-content: flex-start;
+  }
+
+  .linkedin-footer-logo,
+  .github-footer-logo,
+  .insta-footer-logo {
+    width: 8%;
+  }
+
+  .copyright-section {
+    width: 100%;
+    height: 10vh;
+  }
+
+
 }
 
 @media (max-width: 500px) {
@@ -862,7 +914,6 @@ input:focus::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
 
   .nav {
@@ -872,14 +923,12 @@ input:focus::placeholder {
   .section1 {
     height: 30vh;
     flex-direction: column;
-
   }
 
   .menu-icon {
     display: flex;
     width: 5%;
     padding-right: 5%;
-
   }
 
   .icons-list {
@@ -925,7 +974,6 @@ input:focus::placeholder {
     font-size: 0.7rem;
     letter-spacing: 0.1em;
     padding: 15px 0;
-
   }
 
   .section2-content-btn {
