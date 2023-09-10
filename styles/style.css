@@ -314,7 +314,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 58px 0;
+  padding: 10vh;
 }
 
 .section3-content-container {
@@ -876,6 +876,7 @@ input:focus::placeholder {
   .copyright-section {
     width: 100%;
     height: 10vh;
+
   }
 
   .copyright-p {
