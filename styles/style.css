@@ -540,6 +540,7 @@ input:focus::placeholder {
   justify-content: flex-start;
   flex-direction: column;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .footer-icons {
@@ -791,15 +792,17 @@ input:focus::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 
   .section3-content-container {
+
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 40%;
   }
 
   .my-projects-articles {
