@@ -103,7 +103,7 @@ body {
 }
 
 .section1-content {
-  width: 62%;
+  width: 70%;
   height: 50vh;
   display: flex;
   align-items: center;
@@ -587,7 +587,7 @@ input:focus::placeholder {
   padding: 10px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
 
 
   body {
@@ -799,6 +799,7 @@ input:focus::placeholder {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    margin-top: 15%;
   }
 
   .my-projects-articles {
@@ -843,6 +844,7 @@ input:focus::placeholder {
 
   .form-btn {
     align-self: center;
+
   }
 
   .footer {
@@ -890,7 +892,7 @@ input:focus::placeholder {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -1022,7 +1024,7 @@ input:focus::placeholder {
   .form-section4 {
     margin-top: 5%;
     font-size: 0.7rem;
-    height: 60vh;
+    height: 65vh;
   }
 
   .message-text {
@@ -1032,13 +1034,14 @@ input:focus::placeholder {
 
   .form-btn {
     width: 80%;
-    height: 3vh;
+    height: 5vh;
     background-color: #213555;
     color: #f0f0f0;
     border: none;
     border-radius: 5px;
     font-weight: 600;
     font-size: 0.7rem;
+
   }
 
   input::placeholder {
