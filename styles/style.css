@@ -629,7 +629,7 @@ input:focus::placeholder {
   }
 
   .section1 {
-    height: 60vh;
+    height: 80vh;
     flex-direction: column;
   }
 
@@ -646,7 +646,7 @@ input:focus::placeholder {
 
   .section1-content {
     width: 62%;
-    height: 50vh;
+    height: 80vh;
     position: relative;
     right: 0px;
   }
@@ -879,18 +879,19 @@ input:focus::placeholder {
   }
 
   .copyright-section {
-    width: 100%;
+    width: 80%;
     height: 10vh;
 
   }
 
   .copyright-p {
-
+    font-size: 0.5em;
     padding: 10px 0;
   }
 
 
 }
+
 
 @media (max-width: 576px) {
   .header {
@@ -950,7 +951,7 @@ input:focus::placeholder {
     font-size: 1.5rem;
   }
 
-  .section2-content-container {}
+
 
   .paragraph-white-section,
   .paragraph-section2 {
