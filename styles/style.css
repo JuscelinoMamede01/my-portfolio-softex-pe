@@ -62,7 +62,7 @@ body {
 }
 
 .main {
-  background-color: yellow;
+  background-color: #f0f0f0;
 }
 
 .section1 {
@@ -728,7 +728,7 @@ input:focus::placeholder {
 
   .bottom-content-section2 {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     margin-top: 10%;
     display: flex;
     flex-direction: column;
@@ -778,6 +778,7 @@ input:focus::placeholder {
   }
 
   .skills-container-section2 {
+    height: 10vh;
     gap: 15px;
   }
 
@@ -936,6 +937,7 @@ input:focus::placeholder {
   .section1-content-btn {
     width: 100%;
     height: 5vh;
+    margin-top: 10%;
   }
 
   .h2-senction-black {
@@ -945,6 +947,8 @@ input:focus::placeholder {
   .h3-sections2 {
     font-size: 1.5rem;
   }
+
+  .section2-content-container {}
 
   .paragraph-white-section,
   .paragraph-section2 {
@@ -959,6 +963,104 @@ input:focus::placeholder {
   .section2-content-btn {
     width: 80%;
     height: 5vh;
-    margin: 5% 0;
+    margin: 25% 0 5% 0;
   }
+
+
+  .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  .section3 {
+    margin-top: 20%;
+  }
+
+  .laptop-mockup {
+    display: none;
+  }
+
+  .h3-sections3 {
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+
+  .my-projects-articles {
+    width: 90%;
+    margin: 0
+  }
+
+  .section3-content-btn {
+    height: 5vh;
+    font-size: 0.5rem;
+  }
+
+  .paragraph-project-section {
+    width: 110%;
+    font-size: 0.7rem;
+  }
+
+  .h2-sections {
+    width: 100%;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .hr-section {
+    display: none;
+  }
+
+  .paragraph-section {
+    font-size: 0.7rem;
+
+  }
+
+  .form-section4 {
+    margin-top: 5%;
+    font-size: 0.7rem;
+    height: 60vh;
+  }
+
+  .message-text {
+    height: 5vh;
+
+  }
+
+  .form-btn {
+    width: 80%;
+    height: 3vh;
+    background-color: #213555;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+
+  input::placeholder {
+    font-size: 10px;
+
+  }
+
+  textarea::placeholder {
+    font-size: 10px;
+
+  }
+
+  .h3-footer {
+    font-size: 1rem;
+    margin-top: 5%;
+
+  }
+
+  .paragraph-footer {
+    font-size: 0.7rem;
+  }
+
+
+
 }
