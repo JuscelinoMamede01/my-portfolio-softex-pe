@@ -769,8 +769,8 @@ input:focus::placeholder {
   }
 
   .section2-content-btn {
-    width: 80%;
-    height: 10vh;
+    width: 30%;
+    height: 15vh;
     font-size: 80%;
     font-weight: 600;
     letter-spacing: 0.5em;
@@ -827,8 +827,8 @@ input:focus::placeholder {
   }
 
   .section3-content-btn {
-    width: 40%;
-    height: 8vh;
+    width: 30%;
+    height: 15vh;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -896,7 +896,7 @@ input:focus::placeholder {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .header {
     display: flex;
     flex-direction: row;
