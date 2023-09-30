@@ -3,276 +3,251 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/SASS/style.css" />
 
     <title>Juscelino Mamede</title>
   </head>
 
   <body>
-    <header class="header">
-      <div class="logo-space pointer" onclick="redirectToIndexHtml()">
-        <img
-          class="logo-profile"
-          src="assets/profile-pic.png"
-          alt="profile-pic"
-        /><span class="name">Juscelino Mamede</span>
+    <header>
+      <div class="header-profile">
+        <div class="avatar-img">
+          <img width="100%" src="assets/profile-pic.png" />
+        </div>
+        <span>JUSCELINO MAMEDE</span>
       </div>
-      <nav class="nav">
-        <a href="#">HOME</a>
-        <a href="#section2">ABOUT</a>
-        <a href="#section3">PROJECTS</a>
-        <a href="#section4">CONTACT</a>
+
+      <nav>
+        <ul>
+          <li><a href="#section-home">HOME</a></li>
+          <!-- TODO: uppercase -->
+          <li><a href="#section-about-me">ABOUT</a></li>
+          <li><a href="#section-projects">PROJECTS</a></li>
+          <li><a href="#section-contact">CONTACT</a></li>
+        </ul>
       </nav>
-      <img
-        class="menu-icon pointer"
-        src="assets/menu-icon.png"
-        alt="menu-icon"
-      />
+
+      <i class="fa fa-bars dis-hidden"></i>
     </header>
-    <main class="main">
-      <section class="section1" id="section1">
-        <ul class="icons-list">
+
+    <main>
+      <section class="section section-home" id="section-home">
+        <h1>HEY, MY NAME IS JUSCELINO</h1>
+        <p>
+          I am looking for an internship in the software development field.
+          Below, I'll tell you a little more about myself and my projects.
+        </p>
+
+        <div><a class="btn" href="">PROJECTS</a></div>
+      </section>
+
+      <section class="section section-about-me" id="section-about-me">
+        <h2>ABOUT ME</h2>
+        <p class="subtitle">
+          I am a full-time web development student. My future goal is to work as
+          a front-end developer, and I have been dedicating myself to learn more
+          about this IT field. Currently, I am in the third semester of the
+          Associate's Degree program in Web Systems Development. I am also a
+          Frontend developer student at SoftexPE in their Frontend Accelerated
+          Programming (FAP program).
+        </p>
+
+        <div class="section-about-me-content">
+          <div>
+            <h3>Get to know me!</h3>
+            <p class="paragraph" style="margin-bottom: 10px">
+              Greetings! I'm Juscelino Mamede, a Frontend Web Developer based in
+              Paulista, PE, Brazil. My journey in this field has been enriched
+              by valuable experiences working on academic projects, where I've
+              devoted myself to learning and improving both my soft and hard
+              skills. Throughout this journey, I've explored various web
+              development subjects, consistently broadening my knowledge in this
+              ever-evolving field.
+            </p>
+            <p class="paragraph">
+              Throughout this journey, I've explored various web development
+              subjects, consistently broadening my knowledge in this
+              ever-evolving field.
+            </p>
+            <a href="" class="btn" style="margin-top: 30px">contact</a>
+          </div>
+
+          <div>
+            <h3>My Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>SASS</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-projects" id="section-projects">
+        <h2>Projetos</h2>
+        <p class="subtitle">
+          In this section, I share with you the projects that were developed and
+          implemented during my undergraduate studies.
+        </p>
+
+        <ul>
           <li>
-            <img
-              class="linkedin-logo pointer"
-              src="/assets/linkedin.png"
-              alt="linkedin-logo"
-              onClick="window.open('https://www.linkedin.com/in/juscelinomamede/', '_blank')"
-            />
+            <div class="project-img">
+              <img
+                style="width: 100%"
+                src="./assets/laptop1.png"
+                alt="Project mockup"
+              />
+            </div>
+            <div class="project-content flex">
+              <h3>Projeto NBA</h3>
+              <p class="paragraph">
+                Project of a basketball jersey registration e-commerce page,
+                where the retailer registers the product, and upon registering
+                the jersey, it is automatically displayed on the screen with all
+                the information.
+              </p>
+              <a class="btn">Case study</a>
+            </div>
           </li>
+
           <li>
-            <img
-              class="github-logo pointer"
-              src="/assets/github.png"
-              alt="github-logo"
-              onClick="window.open('https://github.com/JuscelinoMamede01', '_blank')"
-            />
+            <div class="project-img">
+              <img
+                style="width: 100%"
+                src="./assets/laptop3.png"
+                alt="Project mockup"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Projeto 2</h3>
+              <p class="paragraph">
+                Database project for the Database Management course developed in
+                SQL Server.
+              </p>
+              <a class="btn">Case study</a>
+            </div>
           </li>
+
           <li>
-            <img
-              class="insta-logo pointer"
-              src="/assets/instagram.png"
-              alt="instagram-logo"
-              onClick="window.open('https://www.instagram.com/juscelinomamede/', '_blank')"
-            />
+            <div class="project-img">
+              <img
+                style="width: 100%"
+                src="./assets/laptop2.png"
+                alt="Project mockup"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Projeto 3</h3>
+              <p class="paragraph">
+                Project developed during the 1st semester of the Web Systems
+                course with the aim of improving appointment scheduling at
+                Unidades básicas de Saúde(UBS) in São Lourenço da Mata,
+                Pernambuco.
+              </p>
+              <a class="btn">Case study</a>
+            </div>
           </li>
         </ul>
-        <div class="section1-content">
-          <h1 class="section1-title">HEY, MY NAME IS JUSCELINO</h1>
-          <p class="paragraph-section1">
-            I am looking for an internship in the software development field.
-            Below, I'll tell you a little more about myself and my projects.
-          </p>
-          <button
-            onClick="window.location.href='#section3'"
-            class="section1-content-btn pointer"
-          >
-            PROJECTS
-          </button>
-          <div class="mini-scroll">
-            <div class="ball"></div>
-          </div>
-        </div>
       </section>
-      <section class="section2" id="section2">
-        <div class="section2-content-container">
-          <h2 class="h2-senction-black">ABOUT ME</h2>
-          <hr class="hr-white-section" />
-          <p class="paragraph-white-section">
-            I am a full-time web development student. My future goal is to work
-            as a front-end developer, and I have been dedicating myself to learn
-            more about this IT field. Currently, I am in the third semester of
-            the Associate's Degree program in Web Systems Development. I am also
-            a Frontend developer student at SoftexPE in their Frontend
-            Accelerated Programming (FAP program).
-          </p>
-          <div class="bottom-content-section2">
-            <div class="left-content-section2">
-              <h3 class="h3-sections2">Get to know me!</h3>
-              <p class="paragraph-section2">
-                Greetings! I'm Juscelino Mamede, a Frontend Web Developer based
-                in Paulista, PE, Brazil. My journey in this field has been
-                enriched by valuable experiences working on academic projects,
-                where I've devoted myself to learning and improving both my soft
-                and hard skills. Throughout this journey, I've explored various
-                web development subjects, consistently broadening my knowledge
-                in this ever-evolving field.
-              </p>
 
-              <button
-                onClick="window.location.href='#section4'"
-                class="section2-content-btn pointer"
-              >
-                CONTACT
-              </button>
-            </div>
-            <div class="right-content-section2">
-              <h3 class="h3-sections2">Skills</h3>
-              <div class="skills-container-section2">
-                <span class="skills">HTML</span>
-                <span class="skills">CSS/SASS</span>
-                <span class="skills">JavaScript</span>
-                <span class="skills">SQL</span>
-                <span class="skills">REACT</span>
-                <span class="skills">UX</span>
-              </div>
-            </div>
+      <section class="section section-contact" id="section-contact">
+        <h2>Contact</h2>
+        <p class="subtitle">
+          If you have a job offer for me, please fill out the form below and get
+          in touch with me.
+        </p>
+        <form action="https://formspree.io/f/mnqkoaba" method="post">
+          <div>
+            <label for="name"> Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
           </div>
-        </div>
-      </section>
-      <section class="section3" id="section3">
-        <div class="section3-content-container">
-          <h2 class="h2-senction-black">PROJECTS</h2>
-          <hr class="hr-white-section" />
-          <p class="paragraph-white-section">
-            In this section, I share with you the projects that were developed
-            and implemented during my undergraduate studies.
-          </p>
-          <article class="my-projects-articles">
-            <img
-              src="assets/laptop1.png"
-              alt=""
-              class="laptop-mockup pointer"
-              onClick="openNbaProjectPage()"
+
+          <div>
+            <label for="email"> E-mail: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
             />
-            <h3 class="h3-sections3">La Basketeira</h3>
-            <p class="paragraph-project-section">
-              Project of a basketball jersey registration e-commerce page, where
-              the retailer registers the product, and upon registering the
-              jersey, it is automatically displayed on the screen with all the
-              information.
-            </p>
-            <button
-              onClick="window.location.href='pages/nbaProject.html'"
-              class="section3-content-btn pointer"
-            >
-              CASE STUDY
-            </button>
-          </article>
-          <article class="my-projects-articles">
-            <img
-              src="assets/laptop3.png"
-              alt="laptop-mockup"
-              class="laptop-mockup pointer"
-              onClick="openGasStationPage()"
-            />
-            <h3 class="h3-sections3">Gas station DB Project</h3>
-            <p class="paragraph-project-section">
-              Database project for the Database Management course developed in
-              SQL Server.
-            </p>
-            <button
-              onClick="window.location.href='pages/gasStation.html'"
-              class="section3-content-btn pointer"
-            >
-              CASE STUDY
-            </button>
-          </article>
-          <article class="my-projects-articles">
-            <img
-              src="assets/laptop2.png"
-              alt="laptop-mockup"
-              class="laptop-mockup pointer"
-              onClick="expressoSaudePage()"
-            />
-            <h3 class="h3-sections3">Expresso Saúde</h3>
-            <p class="paragraph-project-section">
-              Project developed during the 1st semester of the Web Systems
-              course with the aim of improving appointment scheduling at
-              Unidades básicas de Saúde(UBS) in São Lourenço da Mata,
-              Pernambuco.
-            </p>
-            <button
-              onClick="window.location.href='pages/expressoSaude.html'"
-              class="section3-content-btn pointer"
-            >
-              CASE STUDY
-            </button>
-          </article>
-        </div>
-      </section>
-      <section class="section4" id="section4">
-        <div class="section4-content-container">
-          <h2 class="h2-sections">CONTACT ME</h2>
-          <hr class="hr-section" />
-          <p class="paragraph-section">
-            If you have a job offer for me, please fill out the form below and
-            get in touch with me.
-          </p>
-          <form action="" class="form-section4" method="post">
-            <div class="form-content">
-              <label for="name" class="name">Name</label>
-              <input
-                class="name"
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter your name"
-              />
-              <label for="email" class="email">Email</label
-              ><input
-                class="email"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your Email"
-              />
-              <label for="message" class="message"> Message </label>
-              <textarea
-                class="message-text"
-                name="message"
-                id="message"
-                placeholder="Enter your message"
-              ></textarea>
-              <input class="form-btn" type="submit" value="Submit" />
-            </div>
-          </form>
-        </div>
+          </div>
+
+          <div>
+            <label for="message"> Message: </label>
+            <textarea
+              required=""
+              rows="10"
+              placeholder="Enter your message"
+              name="message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
       </section>
     </main>
-    <footer class="footer">
-      <section class="up-footer-content">
-        <div class="left-content">
-          <h3 class="h3-footer">Juscelino Mamede</h3>
-          <p class="paragraph-footer">
-            "Now faith is confidence in what we hope for and assurance about
-            what we do not see."
-          </p>
-          <p class="paragraph-footer">Hebrews 11:1</p>
+
+    <footer>
+      <div class="footer-top">
+        <div>
+          <h4>JUSCELINO MAMEDE</h4>
+
+          <figure class="text-end">
+            <blockquote class="blockquote" cite="Hebrews 11:1">
+              <p>
+                "Now faith is confidence in what we hope for and assurance about
+                what we do not see."
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <cite>Hebrews 11:1</cite>
+            </figcaption>
+          </figure>
         </div>
-        <div class="right-content">
-          <h3 class="h3-footer">Socials</h3>
-          <div class="footer-icons">
-            <img
-              class="linkedin-footer-logo pointer"
-              src="/assets/linkedin.png"
-              alt="linkedin-logo"
-              onClick="window.open('https://www.linkedin.com/in/juscelinomamede/', '_blank')"
-            />
 
-            <img
-              class="github-footer-logo pointer"
-              src="/assets/github.png"
-              alt="instagram-logo"
-              onClick="window.open('https://github.com/JuscelinoMamede01', '_blank')"
-            />
-
-            <img
-              class="insta-footer-logo pointer"
-              src="/assets/instagram.png"
-              alt="instagram-logo"
-              onClick="window.open('https://www.instagram.com/juscelinomamede/', '_blank')"
-            />
+        <div>
+          <h4>Social</h4>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/juscelinomamede/"
+              target="_blank"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+            <a href="https://github.com/JuscelinoMamede01" target="_blank"
+              ><i class="fa fa-github" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/juscelinomamede/" target="_blank"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
           </div>
         </div>
-      </section>
-      <div class="copyright-section">
-        <p class="copyright-p">
-          &copy Copyrigth 2023. Made by Juscelino Mamede
-        </p>
+      </div>
+
+      <!-- linha -->
+      <div class="footer-bottom">
+        <span>
+          © Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">
+            <strong>Ram Maheshwari</strong>
+          </a>
+        </span>
       </div>
     </footer>
+
     <script src="/js/script.js"></script>
   </body>
 </html>

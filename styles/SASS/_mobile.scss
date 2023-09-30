@@ -1,0 +1,77 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+    margin: 0px 0px;
+  }
+  header {
+    nav {
+      display: none;
+    }
+    .fa {
+      display: block;
+      font-size: 1.8rem;
+      padding: 30px 20px;
+      align-self: center;
+      cursor: pointer;
+    }
+  }
+
+  .section-home > p {
+    margin: 0px;
+    font-size: 1.2rem;
+  }
+
+  .section-about-me-content {
+    /* Change number of columns */
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+  }
+
+  .section-projects > ul li {
+    /* Change number of columns */
+    grid-template-columns: 1fr;
+    row-gap: 1.6rem;
+  }
+
+  .section-projects .project-content {
+    /* Center objects */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-contact > form {
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section-contact {
+    input {
+      clear: #333;
+      font-size: 0.8rem;
+    }
+    textarea {
+      color: #333;
+      font-size: 0.8rem;
+    }
+  }
+
+  form button {
+    align-self: stretch;
+  }
+  footer {
+    .footer-top {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 50px;
+      div:first-child {
+        width: auto;
+      }
+    }
+  }
+}

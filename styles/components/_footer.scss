@@ -1,0 +1,51 @@
+/* footer */
+
+footer {
+    background: #186f65;
+    padding: 0px 8%;
+    color: #f0f0f0;
+  }
+  
+  footer>.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+  
+  .footer-top h4 {
+    margin-bottom: 1.6rem;
+  }
+  
+  .footer-top>div:first-child {
+    width: 40%;
+  }
+  
+  .footer-top p {
+  
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+  
+  .footer-top i {
+    font-size: 1.6rem;
+    padding: 0rem 5px;
+  
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 2.6rem 0;
+    font-size: 0.7rem;
+  }
+  
+  figure.text-end {
+    text-align: left;
+  }
+  
+  figcaption.blockquote-footer {
+    font-style: italic;
+  
+  
+  }
