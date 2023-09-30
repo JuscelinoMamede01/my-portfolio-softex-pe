@@ -4,7 +4,7 @@ Este projeto teve como objetivo a construção de um site de portfólio demonstr
 
 ## 👀 Demo
 
-Para experimentar o projeto em ação, acesse a versão de demonstração [clicando aqui](https://augustocesarfmo.github.io/site-ancora/).
+Para experimentar o projeto em ação, acesse a versão de demonstração [clicando aqui](https://my-portfolio-softex-pe.vercel.app/).
 
 ## 🚀 Tecnologias
 
